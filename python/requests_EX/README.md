@@ -1,0 +1,1 @@
+# all files run with the 'uv run .\file.py' command

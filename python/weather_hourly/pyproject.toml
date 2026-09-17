@@ -1,0 +1,17 @@
+[project]
+name = "weather-hourly"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.128.0",
+    "fastapi-users[sqlalchemy]>=15.0.3",
+    "numpy>=2.4.1",
+    "openmeteo-requests>=1.7.5",
+    "pandas>=3.0.0",
+    "requests-cache>=1.2.1",
+    "retry-requests>=2.0.0",
+    "uvicorn>=0.40.0"
+]
